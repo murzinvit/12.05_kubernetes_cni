@@ -13,5 +13,5 @@
 ![Kuber_calico](https://github.com/murzinvit/screen/blob/2569383921ebc363ba4c6c4e394157f3b7cf6c0d/Kuber_calico_kube_system.jpg) </br>
 
 
-#### HРабочие заметки: </br>
+#### Рабочие заметки: </br>
 Микросервисное приложение в k8s + настройка ingress: https://serveradmin.ru/nastroyka-kubernetes/#_Ingress </br>
