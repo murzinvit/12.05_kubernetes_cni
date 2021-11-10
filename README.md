@@ -18,3 +18,4 @@
 Статья по calico: https://habr.com/ru/company/flant/blog/485716/ </br>
 Статья по хранилищам данных: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
 Работа с HELM: https://serveradmin.ru/rabota-s-helm-3-v-kubernetes/ </br>
+Развёртывание MYSQL в k8s: https://itisgood.ru/2020/12/09/kak-razvernut-mysql-na-kubernetes/ </br>
