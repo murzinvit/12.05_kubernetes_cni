@@ -24,3 +24,4 @@
 Полезные команды: 
 Зайти в pod: </br>
 kubectl exec k8s-mysql -it -- bash  </br>
+kubectl get pod k8s-mysql -o template --template={{.status.podIP}} </br>
