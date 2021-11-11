@@ -14,6 +14,7 @@
 
 
 #### Рабочие заметки: </br>
+Calico статья: https://www.kryukov.biz/kubernetes/set-kubernetes-teoriya/calico/ </br>
 Микросервисное приложение в k8s + настройка ingress: https://serveradmin.ru/nastroyka-kubernetes/#_Ingress </br>
 Статья по calico: https://habr.com/ru/company/flant/blog/485716/ </br>
 Статья по хранилищам данных: https://serveradmin.ru/hranilishha-dannyh-persistent-volumes-v-kubernetes/ </br>
