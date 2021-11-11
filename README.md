@@ -22,4 +22,5 @@
 Открытие доступа к приложению в k8s: https://kubernetes.io/ru/docs/tutorials/kubernetes-basics/expose/expose-intro/ </br>
 Управление трафиком в Kubernetes-кластере с Calico: https://habr.com/ru/company/nixys/blog/494194/ </br>
 Полезные команды: 
-Зайти в pod: kubectl exec k8s-mysql -it -- bash  </br>
+Зайти в pod: </br>
+kubectl exec k8s-mysql -it -- bash  </br>
