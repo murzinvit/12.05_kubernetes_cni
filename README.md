@@ -29,3 +29,4 @@ Calico статья: https://www.kryukov.biz/kubernetes/set-kubernetes-teoriya/c
 Зайти в pod: </br>
 kubectl exec k8s-mysql -it -- bash  </br>
 kubectl get pod k8s-mysql -o template --template={{.status.podIP}} </br>
+kubectl run -t -i --rm --image amouat/network-utils testnet bash  - контейнер в кластере kubernetes с утилитами для теста сети</br>
