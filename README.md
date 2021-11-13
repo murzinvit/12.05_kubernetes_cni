@@ -14,6 +14,7 @@
 
 
 #### Рабочие заметки: </br>
+Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
 Понятно по k8s: http://linuxsql.ru/content/kubernetes-glazami-novichka </br>
 Самая адекватная статья: https://mcs.mail.ru/help/ru_RU/k8s-net/k8s-ingress </br>
 Calico статья: https://www.kryukov.biz/kubernetes/set-kubernetes-teoriya/calico/ </br>
