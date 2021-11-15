@@ -10,7 +10,7 @@
 1) Установлен кластер: 1 master + 1 worker </br>
 Установка K8S по предыдущей работе 12.04:[README](https://github.com/murzinvit/12.04_kubernetes_install_part_2/blob/23a37632e3ec532f3a31b44cdf9c8af8089ea3b1/README.md)</br>
 Используемый inventory.ini - https://github.com/murzinvit/12.05_kubernetes_cni/tree/main/inventory/dev  </br>
-![Kuber_calico](https://github.com/murzinvit/screen/blob/2569383921ebc363ba4c6c4e394157f3b7cf6c0d/Kuber_calico_kube_system.jpg) </br>
+![Calico_system_pods](https://github.com/murzinvit/screen/blob/191a77909d4834ce2c6f0fc1b579dc9ff8bd024e/Kuber_kube_system_pods.jpg) </br>
 
 
 #### Рабочие заметки: </br>
