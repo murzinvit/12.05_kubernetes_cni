@@ -28,6 +28,7 @@ Calico статья: https://www.kryukov.biz/kubernetes/set-kubernetes-teoriya/c
 Управление трафиком в Kubernetes-кластере с Calico: https://habr.com/ru/company/nixys/blog/494194/ </br>
 Введение в kubectl(толковое объяснение от mail.ru): https://mcs.mail.ru/blog/kak-effektivnee-ispolzovat-kubectl-podrobnoe-rukovodstvo </br>
 Demo-policy: https://docs.projectcalico.org/security/tutorials/kubernetes-policy-basic </br>
+Подробная и понятная серия статей по k8s: https://russianblogs.com/article/3334128666/ </br>
 Полезные команды: 
 Зайти в pod: </br>
 kubectl exec k8s-mysql -it -- bash  </br>
