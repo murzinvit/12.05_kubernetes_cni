@@ -14,7 +14,7 @@
 ![Calico_system_pods](https://github.com/murzinvit/screen/blob/56268a2f163c70395f098038b7fdb160f81df980/Kuber_get_nodes_from_kube-system.jpg) </br>
 ![Create_pod](https://github.com/murzinvit/screen/blob/9de2b6bef0a12d5e1e15c2b01e916d7e8bbbc4e9/Kuber_create_pod.jpg) </br>
 ![Get_pod](https://github.com/murzinvit/screen/blob/b40ce00a077380c45c62546009d689bcef5b82c2/Kuber_get_pod_nginx.jpg) </br>
-
+![Exposed_pod](https://github.com/murzinvit/screen/blob/0f24065b94823259c912f5e31ac5204daf43beca/Kubectl_exposed_pod.jpg) </br>
 
 #### Рабочие заметки: </br>
 Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
