@@ -15,21 +15,11 @@
 ![Create_pod](https://github.com/murzinvit/screen/blob/9de2b6bef0a12d5e1e15c2b01e916d7e8bbbc4e9/Kuber_create_pod.jpg) </br>
 ![Get_pod](https://github.com/murzinvit/screen/blob/b40ce00a077380c45c62546009d689bcef5b82c2/Kuber_get_pod_nginx.jpg) </br>
 ![Exposed_pod](https://github.com/murzinvit/screen/blob/0f24065b94823259c912f5e31ac5204daf43beca/Kubectl_exposed_pod.jpg) </br>
+`kubectl get pods -o yaml` - Для просмотра label, развёрнутый вывод о подах </br>
 Разрешить ingress и egress к поду с меткой - lbl-k8s-nginx: </br>
 ![Ellow_ing_egress](https://github.com/murzinvit/screen/blob/3f5d8c613b718f69d596a92e68ea34559cc39cfe/Kuber_allow_ingress_egress.jpg) </br>
-`kubectl get pods -o yaml` - Для просмотра label, развёрнутый вывод о подах </br>
-Политика доступа к поду: </br>
-kubectl apply -f - <<EOF </br>
-kind: NetworkPolicy </br>
-apiVersion: networking.k8s.io/v1 </br>
-metadata: </br>
-  name: web-deny-all </br>
-  namespace: default </br>
-spec: </br>
-  podSelector: </br>
-      matchLabels:  </br>
-          name: lbl-k8s-nginx </br>
-EOF </br>
+Запретить весь трафик к поду: </br>
+![screen](https://github.com/murzinvit/screen/blob/dfdd7216e6e4969fffd146f6cd7c85ff5bd8fdc1/Kuber_deny_ingress_egress.jpg) </br>
 
 #### Рабочие заметки: </br>
 Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
