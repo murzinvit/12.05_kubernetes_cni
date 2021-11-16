@@ -11,6 +11,7 @@
 Установка K8S по предыдущей работе 12.04:[README](https://github.com/murzinvit/12.04_kubernetes_install_part_2/blob/23a37632e3ec532f3a31b44cdf9c8af8089ea3b1/README.md)</br>
 Используемый [inventory.ini](https://github.com/murzinvit/12.05_kubernetes_cni/blob/053af694c6c068b242a3ceabdf58684f9a147aa6/inventory/dev/inventory.ini) </br>
 ![Calico_install_ok](https://github.com/murzinvit/screen/blob/fa21d71f37702ef759f85ee150577416696b09d9/Kuber_1master_1worker.jpg) </br>
+</br>
 ![Calico_system_pods](https://github.com/murzinvit/screen/blob/56268a2f163c70395f098038b7fdb160f81df980/Kuber_get_nodes_from_kube-system.jpg) </br>
 ![Create_pod](https://github.com/murzinvit/screen/blob/9de2b6bef0a12d5e1e15c2b01e916d7e8bbbc4e9/Kuber_create_pod.jpg) </br>
 ![Get_pod](https://github.com/murzinvit/screen/blob/b40ce00a077380c45c62546009d689bcef5b82c2/Kuber_get_pod_nginx.jpg) </br>
