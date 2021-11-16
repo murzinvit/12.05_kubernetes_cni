@@ -17,18 +17,17 @@
 ![Exposed_pod](https://github.com/murzinvit/screen/blob/0f24065b94823259c912f5e31ac5204daf43beca/Kubectl_exposed_pod.jpg) </br>
 `kubectl get pods -o yaml` - Для просмотра label, развёрнутый вывод о подах </br>
 Политика доступа к поду: </br>
-kubectl apply -f - <<EOF
-kind: NetworkPolicy
-apiVersion: networking.k8s.io/v1
-metadata:
-  name: web-deny-all
-  namespace: default
-spec:
-  podSelector:
-      matchLabels: 
-          name: lbl-k8s-nginx
-
-EOF
+kubectl apply -f - <<EOF </br>
+kind: NetworkPolicy </br>
+apiVersion: networking.k8s.io/v1 </br>
+metadata: </br>
+  name: web-deny-all </br>
+  namespace: default </br>
+spec: </br>
+  podSelector: </br>
+      matchLabels:  </br>
+          name: lbl-k8s-nginx </br>
+EOF </br>
 
 #### Рабочие заметки: </br>
 Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
