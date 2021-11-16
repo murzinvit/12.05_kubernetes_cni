@@ -1,7 +1,7 @@
 ### 12.05_kubernetes_cni </br>
 После работы с Flannel появилась необходимость обеспечить безопасность для приложения. Для этого лучше всего подойдет Calico.
 
-#### Задание 1: установить в кластер CNI плагин Calico
+### Задание 1: установить в кластер CNI плагин Calico
 Для проверки других сетевых решений стоит поставить отличный от Flannel плагин — например, Calico. Требования:
 установка производится через ansible/kubespray;
 после применения следует настроить политику доступа к hello world извне.
@@ -21,7 +21,13 @@
 Запретить весь трафик к поду: </br>
 ![screen](https://github.com/murzinvit/screen/blob/dfdd7216e6e4969fffd146f6cd7c85ff5bd8fdc1/Kuber_deny_ingress_egress.jpg) </br>
 
-#### Рабочие заметки: </br>
+### Задание 2: изучить, что запущено по умолчанию: </br>
+Самый простой способ — проверить командой calicoctl get . Для проверки стоит получить список нод, ipPool и profile. </br> 
+Требования: </br>
+Установить утилиту calicoctl; </br>
+Получить 3 вышеописанных типа в консоли.</br>
+
+### Рабочие заметки: </br>
 Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
 Понятно по k8s: http://linuxsql.ru/content/kubernetes-glazami-novichka </br>
 Самая адекватная статья: https://mcs.mail.ru/help/ru_RU/k8s-net/k8s-ingress </br>
