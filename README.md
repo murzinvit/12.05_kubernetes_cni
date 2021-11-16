@@ -28,6 +28,9 @@
 Требования: </br>
 Установить утилиту calicoctl; </br>
 Получить 3 вышеописанных типа в консоли.</br>
+![calico_get_nodes](https://github.com/murzinvit/screen/blob/8e7d8174f84424d53fbdeb5e9fff94c0dc5e65b5/Kuber_calico_get_nodes.jpg) </br>
+![calico_get_ipPool](https://github.com/murzinvit/screen/blob/18d8eb923bff9b0bb1df197f8cc86a0017be6dc1/Kuber_calico_get_ipPool.jpg) </br>
+![calico_get_profile](https://github.com/murzinvit/screen/blob/5c42c603bcad13b01eb53bb251686e07b70ff654/Kubectl_calico_get_profile.jpg) </br>
 
 ### Рабочие заметки: </br>
 Хороша статья про политики: https://habr.com/ru/company/flant/blog/443190/ </br>
