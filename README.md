@@ -50,6 +50,7 @@ Demo-policy: https://docs.projectcalico.org/security/tutorials/kubernetes-policy
 Подробная и понятная серия статей по k8s: https://russianblogs.com/article/3334128666/ </br>
 Ingress IBM: https://www.ibm.com/docs/ru/control-desk/7.6.1.x?topic=kubernetes-installing-nginx-ingress-controller-in-cluster </br>
 Ingress от mail.ru: https://mcs.mail.ru/help/ru_RU/k8s-net/k8s-ingress </br>
+Объяснение работы Ingress: https://habr.com/ru/company/ruvds/blog/442646/ </br>
 Полезные команды: </br>
 Зайти в pod: </br>
 `kubectl exec k8s-mysql -it -- bash`  </br>
