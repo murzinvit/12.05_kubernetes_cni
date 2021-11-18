@@ -48,6 +48,7 @@ Calico статья: https://www.kryukov.biz/kubernetes/set-kubernetes-teoriya/c
 Введение в kubectl(толковое объяснение от mail.ru): https://mcs.mail.ru/blog/kak-effektivnee-ispolzovat-kubectl-podrobnoe-rukovodstvo </br>
 Demo-policy: https://docs.projectcalico.org/security/tutorials/kubernetes-policy-basic </br>
 Подробная и понятная серия статей по k8s: https://russianblogs.com/article/3334128666/ </br>
+Ingress IBM: https://www.ibm.com/docs/ru/control-desk/7.6.1.x?topic=kubernetes-installing-nginx-ingress-controller-in-cluster </br>
 Полезные команды: </br>
 Зайти в pod: </br>
 `kubectl exec k8s-mysql -it -- bash`  </br>
